@@ -27,6 +27,25 @@ il y a plus d'homme qui fume que de femme. Presque 20000 (19597) pour les hommes
 Le problème est qu'il y a des valeurs manquantes et des string.
 
 
+Partie 2 : Data pre-processing
+
+2.1 Gestion des Valeurs Manquantes :
+
+J'ai choisi d'imputer les valeurs manquantes avec la moyenne pour les variables numériques.Cette méthode permet de conserver toutes les observations en remplaçant les valeurs manquantes par des valeurs représentatives, minimisant ainsi la perte d'information.
+
+Les données vont etre plus reprensentative, mais vont se rapprocher de la moyenne evidemment. 
+
+2.2 Encodage des catégories
+
+Voici une autre méthode : traitement des valeurs aberrantes : Identifier et traiter les valeurs aberrantes pour éviter qu'elles n'affectent de manière disproportionnée le modèle.
+
+1.4 Analyse de corrélation :
+
+Je ne comprend pas, j'ai une matrice 2x2. 
+
+
+
+
 
 
 
