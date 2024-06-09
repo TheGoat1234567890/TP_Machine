@@ -41,7 +41,31 @@ Voici une autre méthode : traitement des valeurs aberrantes : Identifier et tra
 
 1.4 Analyse de corrélation :
 
-Je ne comprend pas, j'ai une matrice 2x2. 
+Je ne comprend pas, j'ai une matrice 2x2.
+
+
+Partie 3 :
+
+3.1 Création de jeu de test et d'entraînement
+
+J'ai utilisé 80% des données pour l'entraînement et 20% pour le test.
+
+Il est important de diviser cela en test et en entrainement, car le modele s'entraine sur les 80 pourcents qu'on lui donne et ensuite on verifie avec les autres données (Test) qui sont inconnues. Ainsi on peut voir si notre "prediction" correle ou non. 
+
+3.2 Entraînement d'un modèle simple : LogisticRegression
+
+Résultats du Modèle sur le Jeu de Test :
+
+Accuracy: 0.741315860335697
+Precision: 0.6540750323415265
+Recall: 0.6206727228087405
+F1 Score: 0.636936255983875
+
+3.3 Entraîner et ajuster les paramètres de plusieurs modèles
+
+L'ajustement des hyperparamètres permet d'optimiser les performances des modèles en trouvant les configurations qui minimisent l'erreur de prédiction sur l'ensemble de validation croisée. Cela peut améliorer significativement la précision, le rappel et le score F1 des modèles ( je n'ai pas réussi à faire les modèles, mais je me suis renseigné sur la question)
+
+Donc je n'ai pas réussi à faire un seul modèle, mais je sais que le modèle ayant les meilleures performances globales sera celui avec les scores les plus élevés en accuracy, recall, et F1-score.
 
 
 
